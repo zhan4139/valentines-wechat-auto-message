@@ -55,7 +55,7 @@ def mkdir(path):
 def send_news():
 
     # 计算相恋天数
-    inLoveDate = datetime.datetime(2018, 8, 10) # 相恋的时间
+    inLoveDate = datetime.datetime(2018, 8, 10) # 相恋的时间 # change here
     todayDate = datetime.datetime.today()
     inLoveDays = (todayDate - inLoveDate).days
 
@@ -112,7 +112,7 @@ if __name__ == '__main__':
     while True:
         curr_time = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
         love_time = curr_time.split(" ")[1]
-        if love_time == "22:46:01":
+        if love_time == "22:46:01": # change here
             main()
             time.sleep(60)
         else:

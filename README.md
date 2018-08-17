@@ -31,7 +31,11 @@ Currently, it scraped message content and image from below websites:
 
 ## HOW TO RUN:
 
-1. create a txt file called `love_word.txt` under the current directory for saving scraping results. 
+1. create a txt file called `love_word.txt` under the current directory for saving scraping results.
+
+2. edit `demo.py` file based on comments `change here`
+
+3. scan QR code to login web wechat 
 
 ## FAQs
 
@@ -53,4 +57,7 @@ Currently, it scraped message content and image from below websites:
     
  * IndexError: list index out of range on line 69
    
-   because the write file didn't close, point is still at the end of file  
+   because the write file didn't close, point is still at the end of file
+   
+## Copy right 
+   https://mp.weixin.qq.com/s/iyJavHjp8OWGPzXDWKMYAA
